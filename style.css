@@ -1,0 +1,95 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/008/070/315/small/geometric-low-poly-graphic-repeat-pattern-background-free-vector.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #292c31;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 10px 0 20px 0;
+    color: #6CA120;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    color: #292c31;
+}
+
+button {
+    border: none;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-button {
+    background: #6CA120;
+}
+
+#save-button {
+    background: #af212d;
+}
+
+#finish-button {
+    background: #D40A1C;
+}
+
+p {
+    color: #6CA120;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    button {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+        margin: 5px 0 10px 0;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    button {
+        width: 120px;
+        padding: 5px 0 5px 0;
+        margin-bottom: 2px;
+    }
+}

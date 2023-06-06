@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEA Customer Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo-div">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Idea_Logo.svg/1200px-Idea_Logo.svg.png"
+                width="380" height="100px" alt="">
+        </div>
+        <h1>Customers Count:</h1>
+        <h2 id="people-counter">0</h2>
+        <button id="add-button" onclick="increment()">Add</button>
+        <button id="save-button" onclick="save()">Save</button>
+        <p id="save-entries">Customers entries: </p>
+        <div>
+            <button id="finish-button" onclick="finish()">Finish</button>
+            <p id="total-number-of-customers">Today's total number of customers: </p>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
