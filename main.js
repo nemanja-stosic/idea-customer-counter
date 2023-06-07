@@ -29,6 +29,7 @@ function finish() {
         total += parseInt(entries[i]);
     }
     totalNumberOfCustomers.innerHTML += total;
+    totalNumberOfCustomers.style.fontSize = "x-large";
 
     document.querySelector('#add-button').disabled = true;
     document.querySelector('#save-button').disabled = true;
